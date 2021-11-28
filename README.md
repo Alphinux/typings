@@ -53,7 +53,7 @@ available themes:
 
 ## Redo
 
- - Press `esc` to restart a typing test
+ - Press `tab` to restart a typing test
 
 ## language
 
@@ -64,7 +64,7 @@ available languages:
 - `english`
 - `english1000`
 - `italian`
-- `german`
+- `german` (swiss german)
 - `spanish`
 - `chinese`
 - `korean`
