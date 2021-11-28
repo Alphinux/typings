@@ -19,8 +19,8 @@ let punctuation = false;
 
 // Get cookies
 getCookie('theme') === '' ? setTheme('light') : setTheme(getCookie('theme'));
-getCookie('language') === '' ? setLanguage('english') : setLanguage(getCookie('language'));
-getCookie('wordCount') === '' ? setWordCount(50) : setWordCount(getCookie('wordCount'));
+getCookie('language') === '' ? setLanguage('german') : setLanguage(getCookie('language'));
+getCookie('wordCount') === '' ? setWordCount(25) : setWordCount(getCookie('wordCount'));
 getCookie('timeCount') === '' ? setTimeCount(60) : setTimeCount(getCookie('timeCount'));
 getCookie('typingMode') === '' ? setTypingMode('wordcount') : setTypingMode(getCookie('typingMode'));
 getCookie('punctuation') === '' ? setPunctuation('false') : setPunctuation(getCookie('punctuation'));
@@ -260,11 +260,11 @@ document.addEventListener('keydown', e => {
       setPunctuation(inputField.value);
     }
   } else if (!document.querySelector('#theme-center').classList.contains('hidden')) {
-    if (e.key === 'Escape'){
+    if (e.key === 'Tab'){
       hideThemeCenter();
       inputField.focus();
     }
-  } else if (e.key === 'Escape') {
+  } else if (e.key === 'Tab') {
     setText(e);
   }
 });
