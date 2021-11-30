@@ -2,7 +2,7 @@
 
 <a href="https://typings.gg" target="_blank">typings.gg</a> is a sleek and modern typing test website. it supports many custom themes
 
-![typings.gg](img/typings-screen-shot.png)
+![typings.gg](img/typings-screen-shot.png.png)
 
 ## theme
 
@@ -49,7 +49,7 @@ available themes:
 
 ## Redo
 
-- Hold `shift` while pressing Redo to Restart the typing test using the same word list.
+- Hold `shift` while pressing `tab` to Restart the typing test using the same word list.
 
 ## Redo
 
