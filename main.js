@@ -41,6 +41,7 @@ function setText(e) {
   clearTimeout(timer);
   textDisplay.style.display = 'block';
   inputField.className = '';
+  inputField.focus();
 
   switch (typingMode) {
     case 'wordcount':
@@ -266,6 +267,7 @@ document.addEventListener('keydown', e => {
     }
   } else if (e.key === 'Tab') {
     setText(e);
+    inputField.focus();
   }
 });
 
