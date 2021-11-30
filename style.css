@@ -9,6 +9,7 @@ body {
   justify-content: space-between;
   font-family: Roboto Mono;
   line-height: 1.6rem;
+  font-size: 20px;
 }
 
 *[onclick] {
